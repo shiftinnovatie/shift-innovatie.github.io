@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Shift Innovatie</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Shift Innovatie</h1>
+      <nav class="nav">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">Over</a>
+        <a href="index.html">Blog</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Onze blog</h2>
+      <p>Lees hier onze laatste artikelen over innovatie, strategie en groei.</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <ul class="blog-list">
+      <li>
+        <a href="eerste-post.html">Onze eerste post</a> — 3 november 2025
+      </li>
+      <!-- Voeg hier nieuwe posts toe -->
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="jaar"></span> Shift Innovatie</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('jaar').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
