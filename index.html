@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shift Innovatie — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Shift Innovatie</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Over</a>
+        <a href="blog/">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Jonge denkers, slimme oplossingen</h2>
+      <p>Wij helpen startups en innovators met strategie, financiering en marktintroductie.</p>
+      <a href="contact.html" class="btn">Neem contact op</a>
+    </div>
+  </section>
+
+  <section class="services container">
+    <div class="service-card">
+      <h3>Innovatiestrategie</h3>
+      <p>Van idee naar uitvoering, wij helpen je met strategie en roadmap.</p>
+    </div>
+    <div class="service-card">
+      <h3>Subsidies & Investeringen</h3>
+      <p>Wij begeleiden je bij financiering, subsidies en investeerders.</p>
+    </div>
+    <div class="service-card">
+      <h3>Groei & Opschaling</h3>
+      <p>Opschalen van je business met marktintroductie en groei-advies.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="jaar"></span> Shift Innovatie</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('jaar').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
