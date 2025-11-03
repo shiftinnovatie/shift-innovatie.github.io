@@ -1,16 +1,4 @@
 # shift-innovatie.github.io
-# 1. Ga naar je werkmap (pas pad aan naar wens)
-cd ~
-mkdir shift-innovatie-site
-cd shift-innovatie-site
-
-# 2. Initialiseer git en verbind met jouw repo
-git init
-git remote add origin https://github.com/shiftinnovatie/shift-innovatie.github.io.git
-
-# 3. Maak mappen aan
-mkdir css img blog
-
 # 4. Maak basis HTML-bestanden
 cat > index.html <<'EOF'
 <!doctype html>
@@ -36,7 +24,7 @@ cat > index.html <<'EOF'
 
   <main class="container">
     <section class="hero">
-      <h2>Turn your ideas into capital</h2>
+      <h2>Jonge denkers, Slimme oplossing!</h2>
       <p>Wij helpen startups en innovators met strategie, financiering en marktintroductie.</p>
     </section>
 
